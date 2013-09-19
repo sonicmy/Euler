@@ -17,4 +17,4 @@ def primes(n:Long):Array[Long] = {
 }
 
 val num = 600851475143L
-primes(num).foreach(println)
+println(primes(num).max)
