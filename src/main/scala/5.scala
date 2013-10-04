@@ -1,7 +1,7 @@
 #! /bin/sh
   exec scala "$0" "$@"
 !#
-
+//
 def rangePrimes(t: Int): List[List[Int]] = {
 	def primes(number: Int, div: Int): List[Int] = {
 		if(number==div) List(number)
